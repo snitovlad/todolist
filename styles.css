@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+input.error {
+    border: 2px solid red;
+}
+
+dialog span {
+    color: red;
+    margin: 0 5px;
+}
+
+.todolist {
+    max-width: 30vw;
+    margin: 10px auto;
+    /* padding-left: 20px; */
+    border: 1px solid gray;
+}
+.header {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+ol {
+    margin-bottom: 20px;
+    list-style-position: inside; /* Разместить маркеры внутри li */
+    
+}
+ol li {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    
+}
+ol li span {
+    margin-right: 8px;  
+    cursor: pointer;  
+}
+ol li button {
+    color: grey; 
+    border: none; 
+    cursor: pointer;
+}
+ol li input {
+    width: 90%;
+    padding: 2px;
+}
+.add-button {
+    display: block;
+    padding: 0 5px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+dialog {
+    min-width: 30vw;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid gray;
+}
+dialog button {
+    float:right;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+dialog input {
+    width: 60%;
+}
